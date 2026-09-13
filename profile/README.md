@@ -13,7 +13,7 @@ Sciences** sequence — **PHY 121** and **PHY 122**.
 | [exam-writer](https://github.com/SBU-Physics-For-Life-Science/exam-writer) | Generates randomized, multi-version multiple-choice exams (LaTeX/PDF) from a YAML question bank. |
 | [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive) | Archive of past midterm/final exam YAML sources and figures, built with `exam-writer`. |
 
-## Cloning the whole org
+## Cloning the whole organization
 
 Using the [GitHub CLI](https://cli.github.com/):
 
