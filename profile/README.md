@@ -13,6 +13,14 @@ Sciences** sequence — **PHY 121** and **PHY 122**.
 | [exam-writer](https://github.com/SBU-Physics-For-Life-Science/exam-writer) | Generates randomized, multi-version multiple-choice exams (LaTeX/PDF) from a YAML question bank. |
 | [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive) | Archive of past midterm/final exam YAML sources and figures, built with `exam-writer`. |
 
+## Cloning the whole org
+
+Using the [GitHub CLI](https://cli.github.com/):
+
+```
+gh repo list SBU-Physics-For-Life-Science --limit 100 | awk '{print $1}' | xargs -I {} gh repo clone {}
+```
+
 ## Workflow at a glance
 
 1. Prep the semester using [guide](https://github.com/SBU-Physics-For-Life-Science/guide) and the [syllabus](https://github.com/SBU-Physics-For-Life-Science/syllabus).
