@@ -11,7 +11,7 @@ Sciences** sequence — **PHY 121** and **PHY 122**.
 | [syllabus](https://github.com/SBU-Physics-For-Life-Science/syllabus) | Master syllabus document for PHY 121/122. |
 | [scheduler](https://github.com/SBU-Physics-For-Life-Science/scheduler) | Generates the HTML lecture-schedule table for a semester from a CSV. |
 | [exam-writer](https://github.com/SBU-Physics-For-Life-Science/exam-writer) | Generates randomized, multi-version multiple-choice exams (LaTeX/PDF) from a YAML question bank. |
-| [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive) | Archive of past midterm/final exam YAML sources and figures, built with `exam-writer`. |
+| [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive) | Archive of past midterm/final exam YAML sources and figures, inputs to `exam-writer`. |
 
 ## Cloning the whole organization
 
