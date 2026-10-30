@@ -12,6 +12,7 @@ Sciences** sequence — **PHY 121** and **PHY 122**.
 | [scheduler](https://github.com/SBU-Physics-For-Life-Science/scheduler) | Generates the HTML lecture-schedule table for a semester from a CSV. |
 | [exam-writer](https://github.com/SBU-Physics-For-Life-Science/exam-writer) | Generates randomized, multi-version multiple-choice exams (LaTeX/PDF) from a YAML question bank. |
 | [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive) | Archive of past midterm/final exam YAML sources and figures, inputs to `exam-writer`. |
+| [grading-tools](https://github.com/SBU-Physics-For-Life-Science/grading-tools) | Grades the scanned answer sheets of an `exam-writer` exam, per student and per problem, and the entire course. |
 
 ## Cloning the whole organization
 
@@ -27,3 +28,4 @@ gh repo list SBU-Physics-For-Life-Science --limit 100 | awk '{print $1}' | xargs
 2. Build the lecture schedule with [scheduler](https://github.com/SBU-Physics-For-Life-Science/scheduler).
 3. Write exam questions as YAML and generate exams with [exam-writer](https://github.com/SBU-Physics-For-Life-Science/exam-writer).
 4. Archive each semester's exams in [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive).
+5. Grade the scanned answer sheets or the entire course with [grading-tools](https://github.com/SBU-Physics-For-Life-Science/grading-tools).
