@@ -5,7 +5,7 @@ Sciences** sequence — **PHY 121** and **PHY 122**.
 
 ## Repositories
 
-| Repo | Description |
+| Repo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description |
 | --- | --- |
 | [guide](https://github.com/SBU-Physics-For-Life-Science/guide) | Class-prep checklist/todos for instructors teaching the course. |
 | [syllabus](https://github.com/SBU-Physics-For-Life-Science/syllabus) | Master syllabus document for PHY 121/122. |
