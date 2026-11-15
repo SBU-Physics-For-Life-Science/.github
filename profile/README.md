@@ -24,7 +24,7 @@ gh repo list SBU-Physics-For-Life-Science --limit 100 | awk '{print $1}' | xargs
 
 ## Workflow at a glance
 
-1. Prep the semester using [guide](https://github.com/SBU-Physics-For-Life-Science/guide) and the [syllabus](https://github.com/SBU-Physics-For-Life-Science/syllabus).
+1. Prep the semester using [course-guide](https://github.com/SBU-Physics-For-Life-Science/course-guide) and the [syllabus](https://github.com/SBU-Physics-For-Life-Science/syllabus).
 2. Build the lecture schedule with [scheduler](https://github.com/SBU-Physics-For-Life-Science/scheduler).
 3. Write exam questions as YAML and generate exams with [exam-writer](https://github.com/SBU-Physics-For-Life-Science/exam-writer).
 4. Archive each semester's exams in [exam-archive](https://github.com/SBU-Physics-For-Life-Science/exam-archive).
